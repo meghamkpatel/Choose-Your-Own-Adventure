@@ -6,18 +6,30 @@
     android:layout_height="match_parent"
     tools:context=".Question2b">
 
-    <Button
-        android:id="@+id/button6"
+    <TextView
+        android:id="@+id/question2b_id"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="30dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Option 1"
-        tools:layout_editor_absoluteX="162dp"
-        tools:layout_editor_absoluteY="627dp" />
+        android:text=""
+        android:textStyle="bold"
+        android:textColor="@android:color/background_dark"
+        />
+
     <Button
         android:id="@+id/button7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="Option 1"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="482dp" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:text="Option 2"
-        tools:layout_editor_absoluteX="162dp"
-        tools:layout_editor_absoluteY="627dp" />
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="557dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
