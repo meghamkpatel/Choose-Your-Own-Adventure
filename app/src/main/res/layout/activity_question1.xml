@@ -21,8 +21,10 @@
         android:layout_width="87dp"
         android:layout_height="46dp"
         android:text="Option 1"
-        tools:layout_editor_absoluteX="162dp"
-        tools:layout_editor_absoluteY="597dp" />
+        app:layout_constraintBottom_toTopOf="@+id/button6"
+        app:layout_constraintTop_toBottomOf="@+id/question1_id"
+        app:layout_constraintVertical_bias="0.94"
+        tools:layout_editor_absoluteX="162dp" />
 
     <Button
         android:id="@+id/button6"
