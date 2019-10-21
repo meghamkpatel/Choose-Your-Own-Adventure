@@ -8,20 +8,19 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-public class Question2b extends AppCompatActivity {
-
-    TextView question2b;
+public class Question3b extends AppCompatActivity {
+    TextView question3b;
     Button option1, option2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_question1);
+        setContentView(R.layout.activity_question3b);
 
-        option1 = (Button) findViewById(R.id.button9);
-        option2 = (Button) findViewById(R.id.button10);
-        question2b = (TextView) findViewById(R.id.question2b_id);
-        question2b.setText("Question2b");
+        option1 = (Button) findViewById(R.id.button13);
+        option2 = (Button) findViewById(R.id.button14);
+        question3b = (TextView) findViewById(R.id.question1_id);
+        question3b.setText("Question3b");
 
         option1.setOnClickListener(new View.OnClickListener() {
 
@@ -31,7 +30,7 @@ public class Question2b extends AppCompatActivity {
                 // to the Android system defining the components you are targeting.
                 // Intent to start an activity called SecondActivity with the following code:
 
-                Intent intent = new Intent(Question2b.this, Question3c.class);
+                Intent intent = new Intent(Question3b.this, Instructions.class);
 
                 // start the activity connect to the specified class
                 startActivity(intent);
@@ -45,7 +44,7 @@ public class Question2b extends AppCompatActivity {
                 // to the Android system defining the components you are targeting.
                 // Intent to start an activity called SecondActivity with the following code:
 
-                Intent intent = new Intent(Question2b.this, Question3d.class);
+                Intent intent = new Intent(Question3b.this, Instructions.class);
 
                 // start the activity connect to the specified class
                 startActivity(intent);
