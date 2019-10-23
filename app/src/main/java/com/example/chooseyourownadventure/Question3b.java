@@ -19,7 +19,7 @@ public class Question3b extends AppCompatActivity {
 
         option1 = (Button) findViewById(R.id.button13);
         option2 = (Button) findViewById(R.id.button14);
-        question3b = (TextView) findViewById(R.id.question1_id);
+        question3b = (TextView) findViewById(R.id.question3b_id);
         question3b.setText("Question3b");
 
         option1.setOnClickListener(new View.OnClickListener() {

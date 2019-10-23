@@ -16,7 +16,7 @@ public class Question2b extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_question1);
+        setContentView(R.layout.activity_question2b);
 
         option1 = (Button) findViewById(R.id.button9);
         option2 = (Button) findViewById(R.id.button10);

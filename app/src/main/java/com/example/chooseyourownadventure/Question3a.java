@@ -18,21 +18,14 @@ public class Question3a extends AppCompatActivity {
 
         option1 = (Button) findViewById(R.id.button11);
         option2 = (Button) findViewById(R.id.button12);
-        question3a = (TextView)findViewById(R.id.question1_id);
-        question3a.setText("Question2a");
+        question3a = (TextView)findViewById(R.id.question3a_id);
+        question3a.setText("Question3a");
 
         option1.setOnClickListener(new View.OnClickListener() {
 
             public void onClick(View v)
             {
-
-                // Intents are objects of the android.content.Intent type. Your code can send them
-                // to the Android system defining the components you are targeting.
-                // Intent to start an activity called SecondActivity with the following code:
-
                 Intent intent = new Intent(Question3a.this, Instructions.class);
-
-                // start the activity connect to the specified class
                 startActivity(intent);
             }
         });
@@ -40,14 +33,7 @@ public class Question3a extends AppCompatActivity {
 
             public void onClick(View v)
             {
-
-                // Intents are objects of the android.content.Intent type. Your code can send them
-                // to the Android system defining the components you are targeting.
-                // Intent to start an activity called SecondActivity with the following code:
-
                 Intent intent = new Intent(Question3a.this, Instructions.class);
-
-                // start the activity connect to the specified class
                 startActivity(intent);
             }
         });

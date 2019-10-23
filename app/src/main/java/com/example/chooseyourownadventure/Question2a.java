@@ -15,11 +15,11 @@ public class Question2a extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_question1);
+        setContentView(R.layout.activity_question2a);
 
         option1 = (Button) findViewById(R.id.button7);
         option2 = (Button) findViewById(R.id.button8);
-        question2a = (TextView)findViewById(R.id.question1_id);
+        question2a = (TextView)findViewById(R.id.question2a_id);
         question2a.setText("Question2a");
 
         option1.setOnClickListener(new View.OnClickListener() {

@@ -27,31 +27,17 @@ public class Question1 extends AppCompatActivity {
 
             public void onClick(View v)
             {
-
-                // Intents are objects of the android.content.Intent type. Your code can send them
-                // to the Android system defining the components you are targeting.
-                // Intent to start an activity called SecondActivity with the following code:
-
                 Intent intent = new Intent(Question1.this, Question2a.class);
-
-                // start the activity connect to the specified class
                 startActivity(intent);
             }
         });
-        option2.setOnClickListener(new View.OnClickListener() {
-
-            public void onClick(View v)
-            {
-
-                // Intents are objects of the android.content.Intent type. Your code can send them
-                // to the Android system defining the components you are targeting.
-                // Intent to start an activity called SecondActivity with the following code:
-
-                Intent intent = new Intent(Question1.this, Question2b.class);
-
-                // start the activity connect to the specified class
-                startActivity(intent);
-            }
-        });
+//        option2.setOnClickListener(new View.OnClickListener() {
+//
+//            public void onClick(View v)
+//            {
+//                Intent intent = new Intent(Question1.this, Question2b.class);
+//                startActivity(intent);
+//            }
+//        });
     }
 }

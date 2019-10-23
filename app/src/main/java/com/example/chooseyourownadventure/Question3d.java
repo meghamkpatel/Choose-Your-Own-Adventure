@@ -15,11 +15,11 @@ public class Question3d extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_question3b);
+        setContentView(R.layout.activity_question3d);
 
-        option1 = (Button) findViewById(R.id.button13);
-        option2 = (Button) findViewById(R.id.button14);
-        question3d = (TextView) findViewById(R.id.question1_id);
+        option1 = (Button) findViewById(R.id.button17);
+        option2 = (Button) findViewById(R.id.button18);
+        question3d = (TextView) findViewById(R.id.question3d_id);
         question3d.setText("Question3d");
 
         option1.setOnClickListener(new View.OnClickListener() {
