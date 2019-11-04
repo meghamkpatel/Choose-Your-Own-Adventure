@@ -21,16 +21,16 @@ public class Question1 extends AppCompatActivity {
         option1 = (Button) findViewById(R.id.button5);
         option2 = (Button) findViewById(R.id.button6);
         question1 = (TextView)findViewById(R.id.question1_id);
-        question1.setText("Question1");
+        question1.setText("You hear a loud THUMP downstairs");
 
-        option1.setOnClickListener(new View.OnClickListener() {
-
-            public void onClick(View v)
-            {
-                Intent intent = new Intent(Question1.this, Question2a.class);
-                startActivity(intent);
-            }
-        });
+//        option1.setOnClickListener(new View.OnClickListener() {
+//
+//            public void onClick(View v)
+//            {
+//                Intent intent = new Intent(Question1.this, Question2a.class);
+//                startActivity(intent);
+//            }
+//        });
 //        option2.setOnClickListener(new View.OnClickListener() {
 //
 //            public void onClick(View v)

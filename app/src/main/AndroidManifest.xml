@@ -9,15 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainGameLoop"></activity>
-        <activity android:name=".Question3d" />
-        <activity android:name=".Question3c" />
-        <activity android:name=".Question3b" />
-        <activity android:name=".Question2a" />
+        <activity android:name=".intro"></activity>
+        <activity android:name=".MainGameLoop" />
         <activity android:name=".Question3" />
         <activity android:name=".Question2" />
         <activity android:name=".Question1" />
-        <activity android:name=".Intro" />
         <activity android:name=".Instructions" />
         <activity android:name=".MainActivity">
             <intent-filter>
